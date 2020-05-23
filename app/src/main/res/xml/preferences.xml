@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Profile"
+        >
+
+        <ListPreference
+            android:entries="@array/gender"
+            android:entryValues="@array/gender"
+            android:key="gender"
+            android:title="Gender"
+            android:summary="%s"
+            />
+
+        <EditTextPreference
+            android:key="height"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Height"
+            android:summary="Tap to change height"
+            android:dialogTitle="Enter new height"
+            android:dialogMessage="Enter new height"
+            android:dialogLayout="@layout/preference_edittext"
+            />
+
+        <EditTextPreference
+            android:key="weight"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Weight"
+            android:summary="Tap to change weight"
+            android:dialogMessage="Enter new weight"
+            android:dialogTitle="Enter new weight"
+            android:dialogLayout="@layout/preference_edittext"
+            />
+
+        <ListPreference
+            android:entries="@array/goal"
+            android:entryValues="@array/goal"
+            android:key="goal"
+            android:title="Goal"
+            android:summary="%s"/>
+
+        <ListPreference
+            android:entries="@array/activity_level"
+            android:entryValues="@array/activity_level"
+            android:key="exLvl"
+            android:title="Exercise Level"
+            android:summary="%s"
+            />
+
+    </PreferenceCategory>
+
+    <Preference
+        android:title="Contact Developer"
+        android:key="contact"
+        android:summary="Tap to send email message to the developer"/>
+
+    <Preference
+        android:title="Sign Out"
+        android:key="signout"
+        android:summary="Tap to Sign out"/>
+
+
+
+</PreferenceScreen>

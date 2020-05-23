@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="activity_level">
+        <item>Sedentary</item>
+        <item>Moderate</item>
+        <item>Intense</item>
+    </string-array>
+
+    <string-array name="goal">
+        <item>Fat Loss</item>
+        <item>Maintain</item>
+        <item>Muscle Gain</item>
+    </string-array>
+
+
+</resources>
